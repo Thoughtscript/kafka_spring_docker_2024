@@ -14,7 +14,7 @@ public class WebClient {
                 org.springframework.web.reactive.function.client.WebClient
                         .create()
                         .post()
-                        .uri("http://localhost:8080/api/test")
+                        .uri("http://consumer:8080/api/test")
                         .bodyValue(new CustomRequestBody("webclient message"))
                         .retrieve()
                         .toEntity(CustomResponse.class).flatMap(responseEntity -> {
