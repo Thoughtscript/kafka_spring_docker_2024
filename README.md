@@ -34,6 +34,7 @@ Trying out:
 2. Addressing [Scenario 5](https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/#scenario-5) without doing the recommended ways (great article and super helpful - not sure exactly what's changed since 2020 but I got this working with two changes: `networks` in [docker-compose.yml](docker-compose.yml) and `spring.kafka.bootstrap-servers` using the Docker-managed DNS `kafka:9092` in [application.properties](src/main/resources/application.properties)).
 3. Containerizing, simplifying, and updating my 2022 examples from: [java-reactive-pubsub
 ](https://github.com/Thoughtscript/java-reactive-pubsub).
+4. Also, curious about different ways to containerize Java Spring Boot apps - oftentimes people containerize just the `.jar` - is it easier to just supply the exploded file source code?
 
 
 ## Resources and Links
