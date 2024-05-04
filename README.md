@@ -22,7 +22,7 @@ consumer_1  | 2024-05-03T23:57:12.752Z  INFO 60 --- [or-http-epoll-2] i.t.s.c.Re
 producer_1  | 2024-05-03T23:57:12.753Z  INFO 60 --- [or-http-epoll-3] i.t.publisher.webclient.WebClient        : WebClient message sent!
 ```
 
-The **Producer** app will repeatedly loop through and send a bunch of HTTP Webflux and Kafka messages to the `test` topic. The **Consumer** app will consume both kinds of messages using the simply wonderful (concise) `EmbeddedComponentClient` approach (great functionalitiy provided by the Spring Kafka libraries)!
+The **Producer** app will repeatedly loop through and send a bunch of HTTP Webflux and Kafka messages to the `test` topic. The **Consumer** app will consume both kinds of messages using the simply wonderful (concise) `EmbeddedComponentClient` approach (great functionalitiy provided by the Spring Kafka libraries) and a `ReactiveRestController`!
 
 > Note: the whole cluster may take a few seconds to stabilize on app initialization, eventually you should just see a loop of messages like hte above.
 
