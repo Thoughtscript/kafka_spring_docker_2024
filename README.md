@@ -1,4 +1,4 @@
-# spring_docker_2024
+# kafka_spring_docker_2024
 
 [![](https://img.shields.io/badge/bitnami-kafka-red.svg)](https://hub.docker.com/r/bitnami/kafka) [![](https://img.shields.io/badge/Java-22-blue.svg)](https://hub.docker.com/_/maven) [![](https://img.shields.io/badge/Spring-Webflux-green.svg)](https://docs.spring.io/spring-framework/reference/web/webflux.html)
 
