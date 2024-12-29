@@ -6,6 +6,9 @@ Run the following from the root dir:
 
 ```bash
 docker-compose up
+
+# If using Docker Compose Engine V2:
+docker compose up
 ```
 
 Upon running that command you should see:
